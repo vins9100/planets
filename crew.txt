@@ -1,6 +1,8 @@
-Capitain:
-Cook:
-Pilot:
-Cleaner:
+Capitain: Annelinde
+Cook: Roberto
+Pilot: Vinchenzo
+Cleaner: Emmanuel
 Guests:
-
+ - Marco
+ - Benafshe
+ - ...
