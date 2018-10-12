@@ -1,0 +1,235 @@
+    1  ssh -p 31022 eu1-mesosslave-dev-1.icometrix.com 
+    2  ssh -p 31022 eu1-mesosslave-dev-1.icometrix.com
+    3  port 
+    4  /Users/vanania/mrtrix3/build ; exit;
+    5  /Users/vanania/mrtrix3/configure ; exit;
+    6  /Users/vanania/mrtrix3/configure ; exit;
+    7  /Users/vanania/mrtrix3/configure ; exit;
+    8  /Users/vanania/mrtrix3/configure ; exit;
+    9  /Users/vanania/mrtrix3/configure ; exit;
+   10  /Users/vanania/mrtrix3/configure ; exit;
+   11  mrview
+   12  mrview
+   13  mrview
+   14  mrview
+   15  cd Desktop
+   16  mrconvert dicom_DTI_8 dwi.mif
+   17  mrview
+   18  cd Desktop
+   19  mrconvert dicom_DIFFUSION_2
+   20  mrconvert dicom_DIFFUSION_2
+   21  mrconvert dicom_DIFFUSION_2 dwi2.mif
+   22  mrview
+   23  cd BIODEM_dicom_files
+   24  mrconvert dicom_DIFFUSION_2_PT_14 dwi_pt_14.mif
+   25  mrview
+   26  cd Desktop
+   27  mrconvert 
+   28  cd Desktop
+   29  mrconvert dicom_DTI_8 dwi_pt_119.mif
+   30  mrview
+   31  mrconvert dicom_DTI_8 dwi_pt_120.mif
+   32  mrview
+   33  mrconvert dicom_DTI_10
+   34  mrconvert dicom_DTI_10 dwi_pt_121.mif
+   35  mrview
+   36  mrconvert dicom_DTI_8_pt_122
+   37  mrconvert dicom_DTI_8_pt_122 dwi_pt_122
+   38  mrconvert dicom_DTI_8_pt_122 dwi_pt_122.mif
+   39  mrconvert dicom_DTI_8_pt_123 dwi_pt_123.mif
+   40  mrview
+   41  cd Desktop/results_pipeline_results_1876b3bc-266e-45a8-b38e-fae3f9fe6379/finalize_preprocessing/8
+   42  mrconvert b0.nii b0.mif
+   43  mrconvert noise.nii noise.mif
+   44  mrview
+   45  mrview
+   46  cd Desktop/results_pipeline_results_1876b3bc-266e-45a8-b38e-fae3f9fe6379/finalize_preprocessing/8
+   47  mrview
+   48  mrview
+   49  cd Desktop
+   50  dwidenoise BIODEM_
+   51  cd Desktop
+   52  dwidenoise dmri.mif denoised.mif
+   53  git
+   54  cd git
+   55  git --version
+   56  nano --version
+   57  nano
+   58  python --version
+   59  python --version
+   60  jupyter notebook
+   61  ls
+   62  time
+   63  ls --help
+   64  man ls
+   65  git config
+   66  git config --global user.name
+   67  git config --global user.email
+   68  git config --global core.editor
+   69  git config --global core.editor "nano -w"
+   70  git config --global core.editor 
+   71  nano earth .txt
+   72  nano moon.txt
+   73  ls
+   74  nano
+   75  nano earth.txt
+   76  nano earth.txt
+   77  git status
+   78  git init
+   79  ls
+   80  cd /Users/vanania/.git/
+   81  ls
+   82  git add moon.txt
+   83  ls
+   84  mkdir github
+   85  git status
+   86  cd ../
+   87  ls
+   88  cd Desktop
+   89  mkdir github
+   90  cd github
+   91  mkdir BQMinded
+   92  nano earth.txt
+   93  nano moon.txt
+   94  nano moon.txt
+   95  git init
+   96  git add earth.txt
+   97  git add earth.txt
+   98  git add moon.txt
+   99  git status
+  100  git commit
+  101  git status
+  102  cd../
+  103  nano mars.txt
+  104  git status
+  105  git add mars.txt
+  106  git commit
+  107  git status
+  108  ls
+  109  rmdir BQMinded/
+  110  ls
+  111  nano mars.txt
+  112  git status
+  113  git add mars.txt
+  114  git commit
+  115  git status
+  116  nano jupiter.txt
+  117  nano venus.txt
+  118  git status
+  119  git add *.txt
+  120  git status
+  121  git commit
+  122  git log
+  123  git log --help
+  124  git log --oneline
+  125  git log --name-only
+  126  git log --oneline --name-only
+  127  nano jupiter.txt
+  128  git status
+  129  git diff -- jupiter.txt
+  130  git log oneline
+  131  git log --oneline
+  132  git diff -- mars.txt
+  133  git diff 077c421 mars.txt
+  134  git log --oneline
+  135  git status
+  136  git diff --jupiter.txt
+  137  git diff -- mars.txt jupiter.txt
+  138  git diff -- a/mars.txt b/jupiter.txt
+  139  git diff -- a/mars.txt b/mars.txt
+  140  git diff -- a7b558a mars.txt
+  141  git status
+  142  git diff -- jupiter.txt
+  143  git status
+  144  git checkout -- jupiter.txt
+  145  git status
+  146  git diff -- jupiter.txt
+  147  nano pluto.txt
+  148  git status
+  149  git add pluto.txt
+  150  git commit -m "Added pluto"
+  151  git log --oneline --name-only
+  152  git checkout 3c8640c
+  153  git status
+  154  ls
+  155  git log --oneline
+  156  git checkout 9907cb4
+  157  git status
+  158  ls
+  159  git checkout master
+  160  git status
+  161  git log --oneline
+  162  nano capitain_diary.txt
+  163  git status
+  164  nano .gitignore
+  165  git status
+  166  nano .gitignore
+  167  mkdir data
+  168  touch data/datafile1.txt
+  169  git status
+  170  git status
+  171  git add .gitignore
+  172  git commit -m "Add gitinore"
+  173  git status
+  174  git remote -v
+  175  git remote add origin https://github.com/vins9100/planets.git
+  176  git remote -v
+  177  git push -u origin master
+  178  git push -u origin master
+  179  nano spaceship.txt
+  180  git add spaceship.txt
+  181  git commit -m "Add spaceship"
+  182  git push -u origin master
+  183  git pull
+  184  head README.md 
+  185  head LICENSE 
+  186  head README.md 
+  187  nano crew.txt
+  188  git add crew.txt 
+  189  git commit -m "Added crew"
+  190  git push -u origin master
+  191  git branch
+  192  git branch dev
+  193  git branch
+  194  git checkout dev
+  195  git branch
+  196  nano mercury.txt
+  197  nano sun.txt
+  198  git status
+  199  git add mercury.txt sun.txt
+  200  git commit -m "Added mercury and sun"
+  201  git push
+  202  git push --set-upstream origin dev
+  203  git checkout master
+  204  git pull
+  205  git pull
+  206  cat crew.txt
+  207  git checkout dev
+  208  cat crew.txt
+  209  cat crew.txt
+  210  git pull
+  211  cat crew.txt
+  212  cat crew.txt
+  213  git pull
+  214  cat crew.txt
+  215  git checkout master
+  216  git branch UpdateCrew
+  217  git checkout UpdateCrew
+  218  nano crew.txt
+  219  git add crew,txt
+  220  git add crew.txt 
+  221  git commit -m "Added crew with updates"
+  222  git push
+  223  git pullgit push --set-upstream origin UpdateCrew
+  224  git push --set-upstream origin UpdateCrew
+  225  git checkout dev
+  226  git checkout master
+  227  git pull
+  228  git checkout dev
+  229  git merge master
+  230  git push
+  231  git branch
+  232  git add crew.txt
+  233  nano crew.txt
+  234  git add crew.txt
+  235  history > history1.txt
